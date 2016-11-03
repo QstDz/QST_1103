@@ -16,13 +16,13 @@ import java.util.Scanner;
  * 2. 和ex1对比，对多出来的代码进行注释
  * 3. 提交代码到分支下，创建pull request，与主仓库的master分支对比
  * 
- * 1451491320009
+ * 1451491329000
  */
 public class DifferentFormat {
 	@SuppressWarnings("resource")
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
-		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MMM/yyyy:HH:mm:SS", Locale.ENGLISH); //修改格式,因为月份是三个英文字母的，而且年和小时之间是冒号，所以需要这种格式，还需要locale.english对英文月份进行识别
+		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MMM/yyyy:HH:mm:ss", Locale.ENGLISH); //修改格式,因为月份是三个英文字母的，而且年和小时之间是冒号，所以需要这种格式，还需要locale.english对英文月份进行识别
 		while (scanner.hasNext()){
 			String line = scanner.nextLine();
 			Date lineDate = null;
