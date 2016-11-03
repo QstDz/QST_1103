@@ -1,4 +1,4 @@
-package qst.dz.ex;
+package No1;
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 3. 创建pull request，与主仓库的master分支对比
  * 2016/11/11 11:11:11 to 1478833871000
  */
-public class ex1 {
+public class TimestampTransfer {
 	@SuppressWarnings("resource")
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);//获取输入
