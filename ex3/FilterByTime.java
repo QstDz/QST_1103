@@ -25,8 +25,8 @@ public class FilterByTime {
 		SimpleDateFormat regularFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date beginDate = regularFormat.parse("2015-12-31 18:00:00");
 		Date endDate = regularFormat.parse("2015-12-31 19:00:00");
-		//String filePath = "./access.log";
-		String filePath = "e://data.txt";
+		String filePath = "./access.log";
+		//String filePath = "e://data.txt";
 		FileInputStream inputStream = new FileInputStream(filePath);
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(inputStream, "UTF-8");
